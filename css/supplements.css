@@ -5,6 +5,8 @@ body {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -26,6 +28,7 @@ header h1 {
     width: 75%;
     margin: auto;
     overflow-x: auto;
+    white-space: nowrap;
 }
 
 .section a {
@@ -92,5 +95,4 @@ footer p {
         padding-top: 10px;
         font-size: 16px; 
     }
-}
 }
