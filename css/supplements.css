@@ -1,40 +1,36 @@
 body {
+
+     /* Yritin laittaa kuvat vierekkäin ja koko sivua pienemmäksi */
     font-size: larger;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
-}
-
 header {
     display: flex;
     align-items: center;
     background-color: black;
-    height: 80vh;
+    height: 80px;
     opacity: 0.7;
     margin-bottom: 25px;
 }
 
 header h1 {
     text-align: left;
-    padding-left: 20%;
-    padding-top: 20vh;
+    padding-left: 20px; 
     line-height: 50px;
     text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
 
 .section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     background-color: black;
-    height: 250vh;
     width: 75%;
     margin: auto;
+    overflow-x: auto;
 }
 
 .section a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 16px; 
     opacity: 0.8;
     font-weight: bolder;
 }
@@ -44,12 +40,13 @@ header h1 {
 }
 
 .section img {
-    width: 30%;
-    height: auto;
+    width: 120px; /* Leveys*/
+    display: inline-block; /* Näyttää kuvat samalla tasolla */
+    margin: 10px;
 }
 
 .section p {
-    font-size: 16px;
+    font-size: 16px; 
     text-align: left;
     padding-left: 20px;
 }
@@ -61,13 +58,13 @@ footer {
 }
 
 footer p {
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
-    header, .section, footer {
+    header, footer {
       flex-direction: column;
       height: auto;
     }
@@ -77,13 +74,11 @@ footer p {
     }
 
     .section {
-        height: auto;
-        flex-direction: column;
+        width: 100%;
     }
 
     .section img {
-        width: 60%;
-        height: auto;
+        width: 80px;
     }
 
     .section p {
@@ -93,8 +88,9 @@ footer p {
     }
 
     footer p {
-        padding-left: 10px;
+        padding-left: 10px; 
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 16px; 
     }
+}
 }
