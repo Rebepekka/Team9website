@@ -1,91 +1,58 @@
 body {
-
-     /* Yritin laittaa kuvat vierekkäin ja koko sivua pienemmäksi */
-    font-size: larger;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
+    color: rgb(255, 254, 254);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Kaikki kuvat ja teksti näkyvillä */
+    margin: 0;
+    padding-top: 50px; /* Tilaa ylös */
 }
 
 header {
-    display: flex;
-    align-items: center;
-    background-color: black;
-    height: 80px;
-    opacity: 0.7;
-    margin-bottom: 25px;
+    text-align: center; /* Otsikko keskelle */
+    padding: 20px;
 }
 
-.section {
-    background-color: black;
-    width: 75%;
-    margin: auto;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-.section a {
+.back-link {
+    color: rgb(34, 56, 226);
     text-decoration: none;
-    font-size: 16px; 
-    opacity: 0.8;
-    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 15px; /* Tilaa otsikon ja linkin välille */
 }
 
-.section a:hover {
-    color: rgb(164, 5, 5);
+h1 {
+    margin: 0;
 }
 
-.section img {
-    width: 80px; /* Leveys*/
-    display: inline-block; /* Näyttää kuvat samalla tasolla */
-    margin: 10px;
+section {
+    text-align: center; /* Laittaa kuvat ja tekstin keskeelle sivua */
+    margin-bottom: 20px;
 }
 
-.section p {
-    font-size: 16px; 
-    text-align: left;
-    padding-left: 20px;
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; 
+    display: block; 
+    margin: 10px auto; /* asettaa kuvat suoraan */
 }
 
 footer {
-    margin-top: 60px;
-    height: 80px;
-    opacity: 0.7;
+    text-align: center;
+    margin-top: 50px;
 }
 
 footer p {
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 20px;
-}
-
-@media screen and (max-width: 400px) {
-    header, footer {
-      flex-direction: column;
-      height: auto;
-    }
-
-    header h1 {
-        padding-left: 10px;
-    }
-
-    .section {
-        width: 80%;
-    }
-
-    .section img {
-        width: 40px;
-    }
-
-    .section p {
-        font-size: 14px;
-        padding-left: 0;
-        text-align: center;
-    }
-
-    footer p {
-        padding-left: 10px; 
-        padding-top: 10px;
-        font-size: 16px; 
-    }
+    color: rgb(57, 27, 210);
 }
