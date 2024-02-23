@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: rgb(255, 254, 254);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Kaikki tekstit ja kuvat näkyvät sivun sisällä */
+    margin: 0;
+    padding-top: 50px; /* Tilaa ylhäällä */
+}
+
+header {
+    text-align: center; /* Otsikko keskellä */
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-bottom: 20px; /* Tilaa otsikon alla */
+}
+
+section {
+    text-align: center; /* Asettaa kuvat ja tekstin keskelle */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; 
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    color: rgb(57, 27, 210);
+}
