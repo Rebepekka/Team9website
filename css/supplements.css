@@ -17,7 +17,7 @@ header {
 }
 
 .back-link {
-    color: rgb(34, 56, 226);
+    color: rgb(41, 127, 112);
     text-decoration: none;
     font-size: 14px;
     margin-top: 15px; /* Tilaa otsikon ja linkin välille */
@@ -54,5 +54,6 @@ footer {
 }
 
 footer p {
-    color: rgb(57, 27, 210);
+    color: rgb(41, 127, 112);
+    
 }
