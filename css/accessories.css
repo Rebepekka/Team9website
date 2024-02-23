@@ -16,6 +16,13 @@ header {
     padding: 20px;
 }
 
+.back-link {
+    color: rgb(34, 56, 226);
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px; /* Tilaa otsikon ja linkin välille */
+ }
+
 h1 {
     margin: 0;
 }
