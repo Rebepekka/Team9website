@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: rgb(255, 254, 254);
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
