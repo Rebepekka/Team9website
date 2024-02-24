@@ -4,9 +4,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
-body {
-    background-color: black;
-}
 .row {
     background-color: hsla(0, 0%, 71%, 0.921);
     box-shadow: 0 0 9px 0 rgba(10, 10, 10, 10.3);
