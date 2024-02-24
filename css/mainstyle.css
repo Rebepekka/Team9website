@@ -1,5 +1,5 @@
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-size: larger;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -34,16 +34,10 @@ body {
     font-weight: bolder;
     text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
-.navbar  {
-    width: 80%;
-    margin: auto;
-    filter: brightness(80%);
-    font-weight: bolder;
-  }
-.navbar-brand:hover {
+.nav-link:hover {
     background-color: rgb(57, 56, 56);
   }
-h1:hover, a:hover {
+h1:hover {
     color: rgb(142, 138, 138);
 } 
 main {
@@ -52,7 +46,7 @@ main {
 .headline2, .headline3 {
     display: flex; /* tehdään elementistä flex */
     align-items: center; /* tasataan elementit keskeltä pystysuunnassa*/
-    width: 70%;
+    /* width: 70%; */
     margin: auto; 
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +55,7 @@ main {
 }
 .headline2 p, .headline3 p {
     font-size: 25px;
-    padding-left: 14%;
+    padding-left: 8%;
     padding-top: 320px;
     text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
@@ -71,11 +65,10 @@ main {
  /*   align-items: flex-start; /* keskittää tekstin pystysuunnassa kuvien yläreunaan.*/
     flex-wrap: wrap; /* mahdollistaa rivien käärimisen uudelle riville, jos tila loppuu.*/
     margin: auto;
-    width: 65%;
     margin-bottom: 100px;
     margin-top: 30px;
     background-color: black;
-    padding-left: 2%;
+    padding-left: 3%;
 }
 .row {
     flex-basis: calc(33.33%); /* määrittää kullekin .row -elementille kolmanneksen leveydestä */
@@ -86,7 +79,7 @@ main {
     width: 90%;
     height: 80%;
     opacity: 0.7;
-  }
+}
 .text {
     text-align: center;
     width: 80%;
@@ -95,7 +88,7 @@ main {
 }
 .text a {
     font-size: 25px;
-    padding-left: 3%;
+    padding-left: 5%;
     font-weight: bolder;
     color: white;
 }
@@ -105,7 +98,6 @@ a:hover, i:hover {
 .client, .client2 {
     display: flex; /* tehdään elementistä flex */
     align-items: center; /* tasataan elementit keskeltä pystysuunnassa*/
-    width: 70%;
     margin: auto; 
     background-position: center;
     background-repeat: no-repeat;
@@ -114,9 +106,8 @@ a:hover, i:hover {
    }
 .client p, .client2 p {
     font-size: 25px;
-    padding-left: 12%;
+    padding-left: 8%;
     padding-top: 130px;
-    width: 90%;
     text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
 .button {
@@ -151,14 +142,7 @@ address {
 }
 @media only screen and (max-width: 768px) { /* kun näytön leveys 768px... */
     .headline, h1, .headline2, .headline3, .section, .client, .client2, .button, footer {
-      flex-direction: column;  /* ...asettelu muuttuu pystysuunnaksi... */
-   /*   height: 100%; */
-      height: auto; /* Automaattinen korkeus mobiililaitteille */
-      /* width: 100%;  ... muutetaan leveys */
-    }
-  }
-  @media only screen and (max-width: 768px) {
-    .headline {
+        flex-direction: column;  /* ...asettelu muuttuu pystysuunnaksi... */
         height: auto; /* Automaattinen korkeus mobiililaitteille */
     }
     .headline p, .client, .client2, .button {
