@@ -37,9 +37,6 @@ body {
 .nav-link:hover {
     background-color: rgb(57, 56, 56);
   }
-h1:hover {
-    color: rgb(142, 138, 138);
-} 
 main {
     min-height: 100%;
 }
@@ -92,7 +89,7 @@ main {
     font-weight: bolder;
     color: white;
 }
-a:hover, i:hover {
+h1:hover, a:hover, i:hover {
     color: rgb(142, 138, 138);
 } 
 .client, .client2 {
