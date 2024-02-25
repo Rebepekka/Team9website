@@ -18,7 +18,9 @@
     border-color: black;
     box-shadow: 0 0 8px black;
 }
-button {
-    text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
+input {
     background-color: hsla(0, 5%, 6%, 0.921);
+}
+.btn btn-secondary {
+    text-shadow: 1px 1px 2px rgb(60, 13, 13), 0 0 1em black, 0 0 0.6em black;
 }
