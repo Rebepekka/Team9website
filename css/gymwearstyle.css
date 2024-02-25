@@ -43,7 +43,6 @@ main {
 .image-container {
   display: flex;
   flex-direction: row;
-  align-items: left; /* Keskittää kuvat ja navigointielementit vaakatasossa */
   position: relative;
   background-color: black;
   margin-bottom: 5%;
