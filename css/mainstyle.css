@@ -37,6 +37,9 @@ body {
 .nav-link:hover {
     background-color: rgb(57, 56, 56);
   }
+h1:hover {
+    color: rgb(142, 138, 138);
+} 
 main {
     min-height: 100%;
 }
@@ -78,6 +81,7 @@ main {
     opacity: 0.7;
 }
 .text {
+    margin-top: 3%;
     text-align: center;
     width: 80%;
     filter: brightness(90%);
@@ -89,9 +93,6 @@ main {
     font-weight: bolder;
     color: white;
 }
-h1:hover, a:hover, i:hover {
-    color: rgb(142, 138, 138);
-} 
 .client, .client2 {
     display: flex; /* tehdään elementistä flex */
     align-items: center; /* tasataan elementit keskeltä pystysuunnassa*/
@@ -118,9 +119,12 @@ h1:hover, a:hover, i:hover {
     filter: brightness(80%);
     font-size: 25px;
 }
-a:hover, i:hover {
+a:hover {
     color: rgb(142, 138, 138);
 } 
+i:hover {
+    color: gold;
+}
 footer {
     margin-top: 60px;
     height: 220px;
