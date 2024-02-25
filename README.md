@@ -1,13 +1,24 @@
 # rebepekka.github.io
-<h2>Rebekka</h2>
+<h1>Team9</h1>
+<h2>About</h2>
 <ul>
-<li>index.html</li>
-<li>mainstyle.css</li>
-<li>register.html</li>
-<li>registerstyle.css</li>
-<li>login.html</li>
-<li>loginstyle.css</li>
+<li>Link to our website: https://rebepekka.github.io/team9website/</li>
+<li>Link to our repository: https://github.com/Rebepekka/team9website</li>
+<li>Link to our Figma desing:</li>
 </ul>
+<h3>Rebekka</h3>
+<ul>
+<li>gymwear.html</li>
+<li>index.html</li>
+<li>login.html</li>
+<li>membership.html</li>
+<li>register.html</li>
+<li>gymwearstyle.css</li>
+<li>loginstyle.css</li>
+<li>mainstyle.css</li>
+<li>registerstyle.css</li>
+</ul>
+
 Created base design using Figma -Niklas
 Searched pictures and texts for website -Niklas
 Added pictures to their places and put them right size etc -Niklas
