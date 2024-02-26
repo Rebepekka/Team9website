@@ -9,10 +9,12 @@
 <h3>Rebekka</h3>
 <ul>
 <li>gymwear.html</li>
+<li>gymwearmember.html</li>
 <li>index.html</li>
 <li>login.html</li>
 <li>membership.html</li>
 <li>register.html</li>
+<li>gymwearmember.css</li>
 <li>gymwearstyle.css</li>
 <li>loginstyle.css</li>
 <li>mainstyle.css</li>
