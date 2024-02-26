@@ -74,7 +74,7 @@ main {
 .row {
     flex-basis: calc(33.33%); /* määrittää kullekin .row -elementille kolmanneksen leveydestä */
     margin-bottom: 20px; /* lisää 20 pikseliä tilaa rivien väliin */
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .image {
     width: 90%;
@@ -127,7 +127,7 @@ a:hover {
 i:hover {
     color: gold;
 }
-.top, a {
+.top, .top a {
     text-align: center;
     font-size: 18px;
     color: white;
