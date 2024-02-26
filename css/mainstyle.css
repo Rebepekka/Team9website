@@ -127,6 +127,12 @@ a:hover {
 i:hover {
     color: gold;
 }
+.top, a {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    filter: brightness(90%);
+}
 footer {
     margin-top: 60px;
     height: 220px;
