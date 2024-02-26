@@ -75,7 +75,40 @@ main {
     flex-basis: calc(33.33%); /* määrittää kullekin .row -elementille kolmanneksen leveydestä */
     margin-bottom: 20px; /* lisää 20 pikseliä tilaa rivien väliin */
     margin-top: 50px;
+    position: relative;
+    display: inline-block;
 }
+.text-box {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 60%;
+    padding-right: 10%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 1.5;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    background-color: black;
+    filter: brightness(90%);
+}
+.text-box a {
+    color: white;
+    font-size: 25px;
+}
+.img-responsive {
+    width: 90%;
+    height: 80%;
+    opacity: 0.7;
+}
+.row:hover .text-box {
+        opacity: 1;
+    }
 .image {
     width: 90%;
     height: 80%;
