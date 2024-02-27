@@ -189,7 +189,7 @@ address {
     }
     .headline p, .client, .client2, .button {
         font-size: 18px; /* Pienennetty fonttikokoa mobiililaitteille */
-        padding-left: 5%; /* Säädä marginaalia tarpeen mukaan */
-        padding-top: 50px; /* Säädä marginaalia tarpeen mukaan */
+        padding-left: 5%;
+        padding-top: 50px;
     }
 }
